@@ -1,0 +1,6 @@
+# Add 'repo' label to any root file changes EXCEPT for the snake_path/.github dirs
+repo_root:
+- any: ['*', '!.github/**/*', '!.gitignore']
+
+github_specific:
+- any: ['.github/**/*', '.gitignore']
