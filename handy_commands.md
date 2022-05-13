@@ -10,7 +10,7 @@ python -c "import django; print(django.__path__)"
 ```shell
 # Use systemctl/service/other commands to manage postgresql service:
 # Initialize the server by running the command:
-sudo service postgresql-13.6 initdb #
+sudo service postgresql initdb #
 
 # 1. START
 # all
@@ -19,7 +19,7 @@ sudo service postgresql start
 
 # start specific server
 systemctl start postgresql@14-main
-sudo service postgresql-13.6 start #
+sudo service postgresql start ##
 sudo service postgresql-14.2 start
 
 ## 2. STOP
