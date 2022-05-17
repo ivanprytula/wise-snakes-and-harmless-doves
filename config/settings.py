@@ -226,7 +226,7 @@ LOGGING = {
 
 # django-compressor
 # ------------------------------------------------------------------------------
-# https://django-compressor.readthedocs.io/en/latest/quickstart/#installation
+# https://django-compressor.readthedocs.io/en/stable/quickstart.html
 INSTALLED_APPS += ["compressor"]
 STATICFILES_FINDERS += ["compressor.finders.CompressorFinder"]
 
