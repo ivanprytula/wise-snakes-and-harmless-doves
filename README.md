@@ -19,7 +19,6 @@ Web, single-/multiplayer board-like strategy game (2D), turn-based/simultaneousl
 - [ ] each tile/spot on "map" will have different tasks/features -> get points for solving/bad or good creatures - fight with them, or they can give user some stuff
 - [ ] chat (text/voice) in game for communication
 - [ ] cards for 'heroes' and tiles
-- [ ] ...
 
  Clean initial `migrate` command
  ```shell
